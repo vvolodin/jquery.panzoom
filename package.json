@@ -1,5 +1,5 @@
 {
-  "name": "jquery.panzoom",
+  "name": "jquery.panzoom.nopreventdefault",
   "version": "3.2.3",
   "description": "A jQuery plugin to pan and/or zoom elements using CSS3 without preventDefault() call",
   "main": "dist/jquery.panzoom.js",
