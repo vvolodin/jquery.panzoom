@@ -1,6 +1,6 @@
 /**
- * @license jquery.panzoom.js v3.2.2
- * Updated: Sun Aug 28 2016
+ * @license jquery.panzoom.js v3.2.3
+ * Updated: Wed Apr 26 2017
  * Add pan and zoom functionality to any element
  * Copyright (c) timmy willison
  * Released under the MIT license
@@ -966,7 +966,7 @@
 						// IE10 does not support e.button for MSPointerDown, but does have e.which
 						!options.disablePan && (e.which || e.originalEvent.which) === options.which) {
 
-						e.preventDefault();
+						//e.preventDefault();
 						e.stopPropagation();
 						self._startMove(e, touches);
 					}

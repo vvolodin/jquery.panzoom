@@ -1,7 +1,7 @@
 {
   "name": "jquery.panzoom",
-  "version": "3.2.2",
-  "description": "A jQuery plugin to pan and/or zoom elements using CSS3",
+  "version": "3.2.3",
+  "description": "A jQuery plugin to pan and/or zoom elements using CSS3 without preventDefault() call",
   "main": "dist/jquery.panzoom.js",
   "files": [
     "MIT-License.txt",
@@ -17,12 +17,18 @@
     "dragging",
     "drag"
   ],
-  "repository": "timmywil/jquery.panzoom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvolodin/jquery.panzoom.git"
+  },
   "license": "MIT",
   "author": {
     "name": "Timmy Willison",
     "email": "timmywillisn@gmail.com"
   },
+  "contributors": [
+    "Vladimir Volodin"
+  ],
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-bowercopy": "^1.2.4",

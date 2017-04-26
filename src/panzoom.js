@@ -966,7 +966,7 @@
 						// IE10 does not support e.button for MSPointerDown, but does have e.which
 						!options.disablePan && (e.which || e.originalEvent.which) === options.which) {
 
-						e.preventDefault();
+						//e.preventDefault();
 						e.stopPropagation();
 						self._startMove(e, touches);
 					}
